@@ -436,7 +436,7 @@ export const CircularText = ({ className, ...rest }) => (
   width="300.000000pt" height="300.000000pt" viewBox="0 0 300.000000 300.000000"
   preserveAspectRatio="xMidYMid meet">
  <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
- fill="#000000" stroke="none">
+ fill="currentColor" stroke="none">
  <path d="M1322 2833 l-32 -4 5 -67 c3 -37 8 -87 11 -111 l6 -44 65 6 c77 8
  109 26 129 72 30 74 -19 146 -103 150 -26 2 -63 1 -81 -2z m131 -37 c26 -20
  40 -68 28 -99 -13 -33 -45 -53 -99 -61 -50 -7 -48 -10 -55 97 l-5 77 56 0 c32
