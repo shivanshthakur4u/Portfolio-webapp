@@ -12,7 +12,7 @@ import Travelmate from '../../public/images/Projects/travelmate.png'
 import Blogapp from '../../public/images/Projects/blogapp.png'
 import FreshGrocey from '../../public/images/Projects/Freshgrocery.png'
 import EmployeeMangement from '../../public/images/Projects/EmployeeManagement.png'
-import Weatherapp from '../../public/images/Projects/Weatherapp.png'
+import Weatherapp from '../../public/images/Projects/weatherapp.png'
 
 const FramerImage =motion(Image);
 
