@@ -14,7 +14,7 @@ const Footer = () => {
           </span>
           by &nbsp;<Link href={'/'} className="underline underline-offset-2" target="_blank">Saurabh Singh</Link>
         </div>
-        <Link href={"/"}>Say hello</Link>
+        <Link href={"https://wa.me"}>Connect With me</Link>
       </Layout>
     </footer>
   );

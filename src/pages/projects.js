@@ -7,7 +7,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-
+import Socialchat from '../../public/images/Projects/SocialChat.png'
+import Travelmate from '../../public/images/Projects/travelmate.png'
+import Blogapp from '../../public/images/Projects/blogapp.png'
+import FreshGrocey from '../../public/images/Projects/Freshgrocery.png'
+import EmployeeMangement from '../../public/images/Projects/EmployeeManagement.png'
+import Weatherapp from '../../public/images/Projects/Weatherapp.png'
 
 const FramerImage =motion(Image);
 
@@ -20,7 +25,7 @@ const FeaturedProject=({type, title, summary, img, link, github})=>{
             
           <Link className='w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full' href={link} target='_blank'>
           <FramerImage src={img} alt={title} priority
-              sizes="(max-width:768px) 100vw, (max-width:1200px)50vw,50vw" className="w-full h-auto" whileHover={{scale:1.05}} transition={{duration:0.2}}/>
+              sizes="(max-width:768px) 100vw, (max-width:1200px)50vw, 33vw" className="w-full h-auto" whileHover={{scale:1.05}} transition={{duration:0.2}}/>
           </Link>
 
           <div className='w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6'>
@@ -43,7 +48,7 @@ const Project =({title, type, link  ,img, github})=>{
    return(<article className='w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light dark:bg-dark dark:border-light p-6 relative xs:p-4 '>
    <div className=" absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light rounded-br-3xl md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]"/>
          <Link className='w-full cursor-pointer overflow-hidden rounded-lg' href={link} target='_blank'>
-          <FramerImage src={img} alt={title} className="w-full h-auto" whileHover={{scale:1.05}} transition={{duration:0.2}}/>
+          <FramerImage src={img} alt={title} className="w-full h-auto"  whileHover={{scale:1.05}} transition={{duration:0.2}}/>
           </Link>
 
           <div className='w-full flex flex-col items-start justify-between mt-4'>
@@ -75,27 +80,28 @@ const projects = () => {
         <AnimatedText text="Turning Imaginations Into Reality!" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl' />
         <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
         <div className='col-span-12'>
-          <FeaturedProject type={"Featured Project"} link="www.https://google.com" title="Title1" summary="Summary" github="https://github.com"
-          />
+          <FeaturedProject type={"Featured Project-1"} link="https://github.com/shivanshthakur4u/SocialChatApp" title="SocialChatApp" summary="A clone of Instagram created in React-native expo and Nodejs where user can Create profile,Search users, Follow / Unfollow users, Post pictures, set profile picture, set description, change username, change profile picture" github="https://github.com/shivanshthakur4u/SocialChatApp"
+         img={Socialchat} />
         </div>
 
           <div className='col-span-6 sm:col-span-12'>
-          <Project type={"Project-1"} link="www.https://google.com" title="Title1" github="https://github.com"/>
+          <Project type={"Project-1"} img={Blogapp} link="https://blogwebapp-rho.vercel.app/" title="Nextjs Blog Web app using Tailwindcss" github="https://github.com/shivanshthakur4u/blogwebapp"/>
           </div>
           <div className='col-span-6 sm:col-span-12'>
-          <Project type={"Project-2"} link="www.https://google.com" title="Title1" github="https://github.com"/>
+          <Project type={"Project-2"} link="https://github.com/shivanshthakur4u/Travelmate" img={Travelmate} title="Travel Mate React-Native Android App using Travel Rapid API" github="https://github.com/shivanshthakur4u/Travelmate"/>
           </div>
 
+
           <div className='col-span-12'>
-          <FeaturedProject type={"Featured Project"} link="www.https://google.com" title="Title1" summary="Summary" github="https://github.com"
+          <FeaturedProject type={"Featured Project-2"} img={FreshGrocey} link="https://fresh-grocery-green.vercel.app/" github="https://github.com/shivanshthakur4u/freshGrocery" title="Fresh Grocery Web app" summary="Fresh Grocery Web app created in Reactjs and common styling css used in this web app.I have created only Frontend part soon i'm going to add Backend as well make this responsive for mobile devices as well."
           />
         </div>
 
         <div className='col-span-6 sm:col-span-12'>
-        <Project type={"Project-3"} link="www.https://google.com" title="Title1" github="https://github.com"/>
+        <Project type={"Project-3"} link="https://google.com" img={Weatherapp} title="Weather Info Android App using React-Native, Tailwindcss and Rapid API" github="https://github.com"/>
           </div>
           <div className='col-span-6 sm:col-span-12'>
-          <Project type={"Project-4"} link="www.https://google.com" title="Title1" github="https://github.com"/>
+          <Project type={"Project-4"} link="https://github.com/shivanshthakur4u/employeemanagement" img={EmployeeMangement} title="Employee Management (CRUD) operations NextJs web application" github="https://github.com/shivanshthakur4u/employeemanagement"/>
           </div>
         </div>
      </Layout>
