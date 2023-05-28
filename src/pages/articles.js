@@ -66,7 +66,7 @@ const Featured = ({ img, title, time, summary, link }) => {
           transition={{ duration: 0.2 }}
         />
       </Link>
-      <Link href={""} target="_blank">
+      <Link href={link} target="_blank">
         <h2 className=" capitalize text-2xl font-bold my-2 mt-4 hover:underline xs:text-lg">
           {title}
         </h2>
@@ -97,6 +97,7 @@ const articles = () => {
                 "Creating a Loading Effect with HTML and CSS: A Step-by-Step Explanation"
               }
               img={"https://snappost.tech/uploads/images/202305/image_750x_6472f29b57812.jpg"}
+
               summary={"In this article, we will explore an HTML and CSS code that creates a loading effect. The loading effect consists of animated cells that ripple with different colors. We'll break down the HTML and CSS code line by line, explaining the purpose and functionality of each section."
               }
               time={"10 min read"}
