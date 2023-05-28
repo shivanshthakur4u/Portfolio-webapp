@@ -94,13 +94,12 @@ const articles = () => {
           <ul className="grid grid-cols-2 gap-16 lg:gap-8  md:grid-cols-1 md:gap-y-16">
             <Featured
               title={
-                "Build A Custom Pagination Component In Reactjs From Scratch"
+                "Creating a Loading Effect with HTML and CSS: A Step-by-Step Explanation"
               }
-              summary={
-                "Build A Custom Pagination Component In Reactjs From Scratch Learn how to build a custom pagination component in ReactJS from scratch.Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
+              summary={"In this article, we will explore an HTML and CSS code that creates a loading effect. The loading effect consists of animated cells that ripple with different colors. We'll break down the HTML and CSS code line by line, explaining the purpose and functionality of each section."
               }
-              time={"9 min read"}
-              link={"/"}
+              time={"10 min read"}
+              link={"https://snappost.tech/creating-a-loading-effect-with-html-and-css-a-step-by-step-explanation"}
             />
 
             <Featured
