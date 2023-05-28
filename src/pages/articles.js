@@ -96,6 +96,7 @@ const articles = () => {
               title={
                 "Creating a Loading Effect with HTML and CSS: A Step-by-Step Explanation"
               }
+              img={"https://snappost.tech/uploads/images/202305/image_750x_6472f29b57812.jpg"}
               summary={"In this article, we will explore an HTML and CSS code that creates a loading effect. The loading effect consists of animated cells that ripple with different colors. We'll break down the HTML and CSS code line by line, explaining the purpose and functionality of each section."
               }
               time={"10 min read"}
