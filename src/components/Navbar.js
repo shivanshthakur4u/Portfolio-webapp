@@ -58,11 +58,11 @@ const Navbar = () => {
  </nav>
  <h2></h2>
  <nav className='flex items-center justify-center flex-wrap'>
- <motion.a  href="/" target='_blank' whileHover={{y:-2}}   whileTap={{scale:0.9}} className='w-6 mx-3'><TwitterIcon/></motion.a>
-    <motion.a href="/" target='_blank' whileHover={{y:-2}} className='w-6 mx-3'><LinkedInIcon/></motion.a>
-    <motion.a href="/" target='_blank' whileHover={{y:-2}} className='w-6 mx-3'><GithubIcon/></motion.a>
-    <motion.a href="/" target='_blank' whileHover={{y:-2}} className='w-6 mx-3 bg-light rounded-full'><PinterestIcon/></motion.a>
-    <motion.a href="/" target='_blank' whileHover={{y:-2}} className='w-6 ml-3'><DribbbleIcon/></motion.a>
+ {/* <motion.a  href="/" target='_blank' whileHover={{y:-2}}   whileTap={{scale:0.9}} className='w-6 mx-3'><TwitterIcon/></motion.a> */}
+    <motion.a href="https://www.linkedin.com/in/saurabh-singh-7669b9211" target='_blank' whileHover={{y:-2}} className='w-6 mx-3'><LinkedInIcon/></motion.a>
+    <motion.a href="https://github.com/shivanshthakur4u" target='_blank' whileHover={{y:-2}} className='w-6 mx-3'><GithubIcon/></motion.a>
+    {/* <motion.a href="/" target='_blank' whileHover={{y:-2}} className='w-6 mx-3 bg-light rounded-full'><PinterestIcon/></motion.a> */}
+    {/* <motion.a href="/" target='_blank' whileHover={{y:-2}} className='w-6 ml-3'><DribbbleIcon/></motion.a> */}
 
     <button onClick={()=>{setmode(mode === "light" ? "dark" : "light")}} className={`ml-3 flex items-center justify-center rounded-full p-1 ${mode =="light" ? "bg-dark text-light":"bg-light text-dark"}`}>
  

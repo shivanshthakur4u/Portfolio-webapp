@@ -29,7 +29,38 @@ const Experience = () => {
     <div ref={ref} className='w-[75%] mx-auto relative'>
     <motion.div style={{scaleY:scrollYProgress}} className=' absolute left-9 top-0 w-[4px] h-full bg-dark  origin-top'/>
  <ul className='w-full flex flex-col items-center justify-between ml-4'>
-    <Details />
+    <Details time={"May 2023 - July 2023"}  address={"MIG 401, 11th Cross Road, Panampilly Nagar, Kochi, Kerala, India, 682036"} position={"ReactJS Developer Intern"}
+  work={<ul>
+  <li>Enhance, maintain and build frontend for applications,</li>
+  <li>Maintain high-quality standards for the work undertaken and be,</li>
+  <li>Responsible for the quality of deliverables,</li>
+  <li>Follow a test-driven development approach and ensure that there is,</li>
+  <li>Enough test automation and code coverage,</li>
+  <li>Drive architectural changes on frontend architecture by profiling,</li>
+  <li>Improving UX, and build with the design system.</li>
+</ul>}
+company={"TGH TECHNOLOGIES"}
+companyLink={"https://www.tghtech.com/"}
+
+/>
+ </ul>
+
+<br/> <br/>
+ <ul className='w-full flex flex-col items-center justify-between ml-4'>
+    <Details time={"August 2023 - Present"}  address={"MIG 401, 11th Cross Road, Panampilly Nagar, Kochi, Kerala, India, 682036"} position={"Frontend Developer"}
+  work={<ul>
+  <li>Enhance, maintain and build frontend for applications,</li>
+  <li>Maintain high-quality standards for the work undertaken and be,</li>
+  <li>Responsible for the quality of deliverables,</li>
+  <li>Follow a test-driven development approach and ensure that there is,</li>
+  <li>Enough test automation and code coverage,</li>
+  <li>Drive architectural changes on frontend architecture by profiling,</li>
+  <li>Improving UX, and build with the design system.</li>
+</ul>}
+company={"TGH TECHNOLOGIES"}
+companyLink={"https://www.tghtech.com/"}
+
+/>
  </ul>
     </div>
    </div>

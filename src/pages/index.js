@@ -42,8 +42,8 @@ const Home = () => {
                 portfolio to see examples of my work. Thank you
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center gap-3">
-                <Link href="/dummy.pdf" target={"_blank"} download={true}><Button1 name="Resume" /></Link>
-                <Link href="/dummy.pdf"><Button2 name="Contact"/></Link>
+                <Link href="/saurabh_singh_resume.pdf" target={"_blank"} download={true}><Button1 name="Resume" /></Link>
+                <Link href="https://www.instagram.com/shivanshthakur4u/" target={"_blank"}><Button2 name="Contact"/></Link>
               </div>
             </div>
           </div>
