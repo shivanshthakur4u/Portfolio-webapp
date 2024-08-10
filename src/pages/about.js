@@ -62,22 +62,11 @@ const about = () => {
               </p>
 
               <p className="font-medium my-4">
-                For me, design is not just about making things look pretty;
-                it&apos;s about solving complex problems and creating intuitive,
-                enjoyable experiences for users. Whether I&apos;m working on a
-                website, mobile app, or other digital product, I bring a
-                relentless commitment to design excellence and user-centered
-                thinking to every project I take on.
+                I have worked with a variety of technologies, including React, Next.js, Node.js, Express.js and MongoDB
               </p>
               <p className="font-medium">
-                I take pride in staying up-to-date with the latest industry
-                trends and technologies, and I use this knowledge to
-                continuously improve my craft and push the boundaries of
-                what&apos;s possible. If you&apos;re looking for a dedicated and
-                professional web developer and app developer who can bring your
-                digital vision to life, then look no further. Let&apos;s work
-                together to create an exceptional digital experience for your
-                users.
+               I am a lifelong learner, always looking to improve my skills and stay up-to-date with the latest trends. Looking for self-growth while helping
+               the organization grow.
               </p>
             </div>
 
